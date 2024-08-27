@@ -1,5 +1,6 @@
 import { atom } from "recoil";
-
+import { Keypair } from "@solana/web3.js";
+import { HDNodeWallet } from "ethers";
 
 export interface Wallet {
     key: string;
